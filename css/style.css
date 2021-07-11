@@ -85,15 +85,15 @@ body {
     .navbar-brand {
         padding-top: 10px;
     }
-    .navbar-brand h1 { /* Restaurant name */
+    .navbar-brand h1 { 
         padding-top: 10px;
-        font-size: 4vw; /* 1vw = 1% of viewport width */
+        font-size: 4vw; 
     }
 
-    #collapsable-nav a { /* Collapsed nav menu text */
+    #collapsable-nav a { 
         font-size: 1.2em;
     }
-    #collapsable-nav a span { /* Collapsed nav menu glyph */
+    #collapsable-nav a span { 
         font-size: 1em;
         margin-right: 5px;
     }
