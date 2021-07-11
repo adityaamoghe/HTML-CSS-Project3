@@ -5,7 +5,7 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
-/** HEADER **/
+
 #header-nav {
     background-color: #f6b319;
     border-radius: 0;
@@ -19,7 +19,7 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
 }
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 { 
     font-family: 'Lora', serif;
     color: #557c3e;
     font-size: 1.7em;
@@ -53,9 +53,6 @@ body {
     background: #8e24aa;
 }
 
-/* END HEADER */
-
-/* HOME PAGE */
 
 #home-tiles .item-text {
     background: #5e5e5e;
@@ -67,22 +64,21 @@ body {
     font-weight: 400;
 }
 
-/* END OF HOME PAGE */
-/********** Large devices only **********/
+/********** Large **********/
 @media (min-width: 1200px) {
 }
 
-/********** Medium devices only **********/
+/********** Medium **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 }
 
-/********** Small devices only **********/
+/********** Small  **********/
 @media (min-width: 768px) and (max-width: 991px) {
 }
 
-/********** Extra small devices only **********/
+/********** Extra small **********/
 @media (max-width: 767px) {
-    /* Header */
+  
     .navbar-brand {
         padding-top: 10px;
     }
