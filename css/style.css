@@ -5,7 +5,6 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
-/** HEADER **/
 #header-nav {
     background-color: #f6b319;
     border-radius: 0;
@@ -53,9 +52,6 @@ body {
     background: #8e24aa;
 }
 
-/* END HEADER */
-
-/* HOME PAGE */
 
 #home-tiles .item-text {
     background: #5e5e5e;
@@ -67,22 +63,21 @@ body {
     font-weight: 400;
 }
 
-/* END OF HOME PAGE */
-/********** Large devices only **********/
+/** Large Devices **/
 @media (min-width: 1200px) {
 }
 
-/********** Medium devices only **********/
+/** Medium Devices **/
 @media (min-width: 992px) and (max-width: 1199px) {
 }
 
-/********** Small devices only **********/
+/** Small Devices **/
 @media (min-width: 768px) and (max-width: 991px) {
 }
 
-/********** Extra small devices only **********/
+/** XS Devices **/
 @media (max-width: 767px) {
-    /* Header */
+
     .navbar-brand {
         padding-top: 10px;
     }
@@ -98,9 +93,7 @@ body {
         font-size: 1em;
         margin-right: 5px;
     }
-    /* End Header */
 
-    /* Home Page */
     .menu-item-description {
         text-align: center;;
     }
