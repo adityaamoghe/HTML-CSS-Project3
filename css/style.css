@@ -12,8 +12,8 @@ body {
 }
 
 .navbar-brand {
-    padding-top: 25px;
-    padding-bottom: 40px;
+    padding-top: 24px;
+    padding-bottom: 39.5px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
@@ -53,6 +53,7 @@ body {
 }
 
 
+
 #home-tiles .item-text {
     background: #5e5e5e;
     padding: 10px;
@@ -77,19 +78,19 @@ body {
 
 /** XS Devices **/
 @media (max-width: 767px) {
-
+    
     .navbar-brand {
         padding-top: 10px;
     }
-    .navbar-brand h1 { /* Restaurant name */
+    .navbar-brand h1 { 
         padding-top: 10px;
-        font-size: 4vw; /* 1vw = 1% of viewport width */
+        font-size: 4vw; 
     }
 
-    #collapsable-nav a { /* Collapsed nav menu text */
+    #collapsable-nav a { 
         font-size: 1.2em;
     }
-    #collapsable-nav a span { /* Collapsed nav menu glyph */
+    #collapsable-nav a span { 
         font-size: 1em;
         margin-right: 5px;
     }
